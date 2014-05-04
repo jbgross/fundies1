@@ -19,3 +19,8 @@
 ;(string-ith "42" 2) 
 
 (+ (string-length "hello world") 60)
+
+; exercise 3
+(define str "helloworld")
+(define i 5)
+(string-append (substring str 0 5) "_" (substring str 5))
