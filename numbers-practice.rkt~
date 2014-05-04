@@ -5,17 +5,3 @@
 (define x 3)
 (define y 4)
 (string-append "what a " "lovely " "day" " for learning BSL")
-
-(define prefix "hello")
-(define suffix "world")
-(string-append prefix "_" suffix)
-
-; won't work
-;(string-length 42)
-(string-length "42")
-(string-length (number->string 42))
-(string-ith "42" 1)
-; overstep the bounds of the string
-;(string-ith "42" 2) 
-
-(+ (string-length "hello world") 60)
